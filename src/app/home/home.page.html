@@ -1,20 +1,14 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Blank
+      RegistroAPP
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+  <app-custom-input (usernameChanged)="username = $event"></app-custom-input>
+  <app-custom-password-input (passwordChanged)="password = $event"></app-custom-password-input>
+  <app-ingreso-button [username]="username" [password]="password"></app-ingreso-button>
+  <app-forgot-password-button></app-forgot-password-button>  
 </ion-content>

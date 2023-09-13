@@ -4,6 +4,12 @@ import { IonicModule } from '@ionic/angular';
 import { FormsModule } from '@angular/forms';
 import { HomePage } from './home.page';
 
+// Importa tu componente personalizado
+import { CustomInputComponent } from '../custom-input/custom-input.component';
+import { CustomPasswordInputComponent } from '../custom-password-input/custom-password-input.component';
+import { ForgotPasswordButtonComponent } from '../forgot-password-button/forgot-password-button.component';
+import { IngresoButtonComponent } from '../ingreso-button/ingreso-button.component';
+
 import { HomePageRoutingModule } from './home-routing.module';
 
 
@@ -14,6 +20,13 @@ import { HomePageRoutingModule } from './home-routing.module';
     IonicModule,
     HomePageRoutingModule
   ],
-  declarations: [HomePage]
+  declarations: [
+    HomePage,
+    // Agrega tu componente personalizado a las declaraciones
+    CustomInputComponent,
+    CustomPasswordInputComponent,
+    ForgotPasswordButtonComponent,
+    IngresoButtonComponent
+  ]
 })
 export class HomePageModule {}

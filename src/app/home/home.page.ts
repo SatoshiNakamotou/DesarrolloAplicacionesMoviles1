@@ -6,7 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
+  username: string = ''; // Agrega la propiedad username aquí
+  password: string = ''; // Agrega la propiedad password aquí
 
   constructor() {}
-
 }

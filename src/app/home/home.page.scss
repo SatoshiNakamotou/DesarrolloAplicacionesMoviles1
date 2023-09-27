@@ -1,27 +1,16 @@
-#container {
-  text-align: center;
-
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+/* Establece el fondo negro para todo el proyecto Ionic */
+ion-content, ion-header, ion-footer, ion-toolbar, ion-tab-bar , main-container{
+  --background: black;
+  color: white; /* Cambia el color del texto a blanco para que sea legible en fondo negro */
 }
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
+
+/* Establece el fondo negro para el body si lo deseas (opcional) */
+body {
+  background-color: black;
 }
 
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
-}
-
-#container a {
-  text-decoration: none;
+/* Cambia el color del texto del body (opcional) */
+body {
+  color: white;
 }

@@ -5,5 +5,36 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <h1>bienvenido pedro</h1>
+  <h1 class="welcome-container">Bienvenido pedro</h1>
+
+  <!-- Tabla simulada -->
+  <div class="table-container">
+    <div class="table-cell-tit">Registro de asistencias</div>
+    <div class="table-row header">
+      <div class="table-cell">Fecha</div>
+      <div class="table-cell">Estado</div>
+    </div>
+    <div class="table-row">
+      <div class="table-cell">12-sep-2023</div>
+      <div class="table-cell">Presente</div>
+    </div>
+    <div class="table-row">
+      <div class="table-cell">13-sep-2023</div>
+      <div class="table-cell">Presente</div>
+    </div>
+    <div class="table-row">
+      <div class="table-cell">14-sep-2023</div>
+      <div class="table-cell">Presente</div>
+    </div>
+
+    <!-- Agrega más filas según tus registros -->
+  </div>
+
+  <ion-item class="porcentaje-item">
+    <ion-label class="porcentaje-label">
+      <h2>Porcentaje de Asistencias</h2>
+      <p class="porcentaje-value">92%</p>
+    </ion-label>
+  </ion-item>
+  
 </ion-content>

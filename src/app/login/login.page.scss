@@ -1,0 +1,105 @@
+.welcome-container{
+    margin-left: 40px;
+    font-size: 36px;
+  }
+  
+.table-container {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    background-color: white;
+  }
+  
+  .table-row {
+    display: table-row;
+  }
+  
+  .table-cell {
+    display: table-cell;
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+    font-size: larger;
+    font-weight: 900;
+  }
+  
+  .header {
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .table-row:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .table-cell-tit{
+    display: inline-block;
+    font-size: larger;
+    font-weight: 900;
+    margin-left: 40px;
+    margin-top: 30px;
+    width: 100%;
+    height: 50px;
+    padding-top: 10px;
+    padding-left: 10px;
+    background-color: black;
+    color: white;
+  }
+
+/* Estilo para el contenedor del porcentaje */
+.porcentaje-item {
+    background-color: green; /* Color de fondo verde */
+    color: white; /* Texto en blanco para contraste */
+    padding: 12px; /* Espaciado interno */
+    border-radius: 4px; /* Bordes redondeados */
+    text-align: center; /* Centra el contenido */
+  }
+  
+  /* Estilo para el título h2 */
+  .porcentaje-label h2 {
+    font-size: 24px; /* Tamaño de fuente del título */
+    margin-bottom: 8px; /* Margen inferior */
+    color: black;
+    font-weight: normal;
+    .porcentaje-item {
+      background-color: green; /* Color de fondo verde */
+      color: white; /* Texto en blanco para contraste */
+      padding: 12px; /* Espaciado interno */
+      border-radius: 4px; /* Bordes redondeados */
+      text-align: center; /* Centra el contenido */
+      color: black;
+      font-weight: normal;
+    }
+    
+    /* Estilo para el título h2 */
+    .porcentaje-label h2 {
+      color: black;
+      font-weight: normal;
+      font-size: 18px; /* Tamaño de fuente del título */
+      margin-bottom: 8px; /* Margen inferior */
+    }
+    
+    /* Estilo para el valor del porcentaje */
+    .porcentaje-value {
+      font-size: 24px; /* Tamaño de fuente del porcentaje */
+      font-weight: bold; /* Texto en negrita para enfatizar */
+      margin: 0; /* Elimina el margen superior e inferior del porcentaje */
+      color: black;
+      font-weight: normal;
+    }    
+  }
+  
+  /* Estilo para el valor del porcentaje */
+  .porcentaje-value {
+    background-color: green;
+    font-size: 24px; /* Tamaño de fuente del porcentaje */
+    font-weight: bold; /* Texto en negrita para enfatizar */
+    margin: 0; /* Elimina el margen superior e inferior del porcentaje */
+    color: black;
+    font-weight: normal;
+    padding: 10px;
+
+  }
+  

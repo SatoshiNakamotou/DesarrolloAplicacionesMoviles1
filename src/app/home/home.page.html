@@ -6,7 +6,7 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
+<ion-content [fullscreen]="true" class="main-container">
   <app-custom-input (usernameChanged)="username = $event"></app-custom-input>
   <app-custom-password-input (passwordChanged)="password = $event"></app-custom-password-input>
   <app-ingreso-button [username]="username" [password]="password"></app-ingreso-button>
